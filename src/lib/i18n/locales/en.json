@@ -1,0 +1,70 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "affiliates": "Affiliates",
+    "campaigns": "Campaigns",
+    "settings": "Settings",
+    "logout": "Logout",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noData": "No data available"
+  },
+  "dashboard": {
+    "overview": "Overview",
+    "totalReferrals": "Total Referrals",
+    "totalEarnings": "Total Earnings",
+    "conversionRate": "Conversion Rate",
+    "topAffiliates": "Top Affiliates",
+    "recentActivity": "Recent Activity",
+    "performance": "Performance",
+    "commissionTrends": "Commission Trends",
+    "campaignPerformance": "Campaign Performance"
+  },
+  "affiliates": {
+    "manage": "Manage Affiliates",
+    "name": "Name",
+    "email": "Email",
+    "status": "Status",
+    "earnings": "Earnings",
+    "referrals": "Referrals",
+    "joinDate": "Join Date",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "searchPlaceholder": "Search affiliates...",
+    "filterBy": "Filter by",
+    "sortBy": "Sort by"
+  },
+  "campaigns": {
+    "manage": "Manage Campaigns",
+    "name": "Name",
+    "status": "Status",
+    "clicks": "Clicks",
+    "conversions": "Conversions",
+    "conversionRate": "Conversion Rate",
+    "revenue": "Revenue",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "active": "Active",
+    "inactive": "Inactive",
+    "completed": "Completed",
+    "searchPlaceholder": "Search campaigns...",
+    "filterBy": "Filter by",
+    "sortBy": "Sort by"
+  },
+  "settings": {
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "account": "Account",
+    "security": "Security",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "systemDefault": "System Default"
+  }
+}
+

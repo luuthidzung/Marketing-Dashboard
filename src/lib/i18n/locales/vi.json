@@ -1,0 +1,70 @@
+{
+  "common": {
+    "dashboard": "Bảng Điều Khiển",
+    "affiliates": "Đối Tác Liên Kết",
+    "campaigns": "Chiến Dịch",
+    "settings": "Cài Đặt",
+    "logout": "Đăng Xuất",
+    "search": "Tìm Kiếm",
+    "filter": "Lọc",
+    "sort": "Sắp Xếp",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "noData": "Không có dữ liệu"
+  },
+  "dashboard": {
+    "overview": "Tổng Quan",
+    "totalReferrals": "Tổng Giới Thiệu",
+    "totalEarnings": "Tổng Thu Nhập",
+    "conversionRate": "Tỷ Lệ Chuyển Đổi",
+    "topAffiliates": "Đối Tác Hàng Đầu",
+    "recentActivity": "Hoạt Động Gần Đây",
+    "performance": "Hiệu Suất",
+    "commissionTrends": "Xu Hướng Hoa Hồng",
+    "campaignPerformance": "Hiệu Suất Chiến Dịch"
+  },
+  "affiliates": {
+    "manage": "Quản Lý Đối Tác",
+    "name": "Tên",
+    "email": "Email",
+    "status": "Trạng Thái",
+    "earnings": "Thu Nhập",
+    "referrals": "Giới Thiệu",
+    "joinDate": "Ngày Tham Gia",
+    "active": "Hoạt Động",
+    "inactive": "Không Hoạt Động",
+    "pending": "Đang Chờ",
+    "searchPlaceholder": "Tìm kiếm đối tác...",
+    "filterBy": "Lọc theo",
+    "sortBy": "Sắp xếp theo"
+  },
+  "campaigns": {
+    "manage": "Quản Lý Chiến Dịch",
+    "name": "Tên",
+    "status": "Trạng Thái",
+    "clicks": "Lượt Nhấp",
+    "conversions": "Chuyển Đổi",
+    "conversionRate": "Tỷ Lệ Chuyển Đổi",
+    "revenue": "Doanh Thu",
+    "startDate": "Ngày Bắt Đầu",
+    "endDate": "Ngày Kết Thúc",
+    "active": "Hoạt Động",
+    "inactive": "Không Hoạt Động",
+    "completed": "Hoàn Thành",
+    "searchPlaceholder": "Tìm kiếm chiến dịch...",
+    "filterBy": "Lọc theo",
+    "sortBy": "Sắp xếp theo"
+  },
+  "settings": {
+    "language": "Ngôn Ngữ",
+    "theme": "Giao Diện",
+    "notifications": "Thông Báo",
+    "profile": "Hồ Sơ",
+    "account": "Tài Khoản",
+    "security": "Bảo Mật",
+    "darkMode": "Chế Độ Tối",
+    "lightMode": "Chế Độ Sáng",
+    "systemDefault": "Mặc Định Hệ Thống"
+  }
+}
+
