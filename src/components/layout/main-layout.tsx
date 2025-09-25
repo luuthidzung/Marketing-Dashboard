@@ -23,12 +23,16 @@ export function MainLayout({ children }: MainLayoutProps) {
                 )}
             >
                 <Header />
-                <main className="flex-1 p-4 md:p-6">
-                    {children}
+                <main className="flex-1 p-5 md:p-8 max-w-7xl mx-auto w-full">
+                    <div className="container mx-auto px-0">
+                        {children}
+                    </div>
                 </main>
             </div>
         </div>
     );
 }
+
+
 
 

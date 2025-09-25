@@ -23,24 +23,26 @@ export function StatsCard({
     className,
 }: StatsCardProps) {
     return (
-        <Card className={cn("overflow-hidden", className)}>
+        <Card className={cn("overflow-hidden hover-scale gradient-card", className)}>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-sm font-medium">{title}</CardTitle>
-                <Icon className="h-4 w-4 text-muted-foreground" />
+                <div className="h-10 w-10 rounded-full gradient-primary flex items-center justify-center shadow-sm">
+                    <Icon className="h-5 w-5 text-white" />
+                </div>
             </CardHeader>
             <CardContent>
-                <div className="text-2xl font-bold">{value}</div>
+                <div className="text-3xl font-bold tracking-tight">{value}</div>
                 {description && (
-                    <p className="text-xs text-muted-foreground">{description}</p>
+                    <p className="text-xs text-muted-foreground mt-1">{description}</p>
                 )}
                 {trend && (
-                    <div className="flex items-center pt-1">
+                    <div className="flex items-center mt-3 bg-muted/50 rounded-full px-3 py-1 w-fit">
                         <span
                             className={cn(
                                 "text-xs font-medium",
                                 trend.positive
-                                    ? "text-green-500"
-                                    : "text-red-500"
+                                    ? "text-success"
+                                    : "text-destructive"
                             )}
                         >
                             {trend.positive ? "+" : "-"}{trend.value}%
