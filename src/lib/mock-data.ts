@@ -7,6 +7,29 @@ import {
 
 // Generate mock affiliates
 export const mockAffiliates: Affiliate[] = [
+    // New sample affiliates
+    {
+        id: '11',
+        name: 'Alex Johnson',
+        email: 'alex.j@example.com',
+        status: 'active',
+        earnings: 4780.35,
+        referrals: 112,
+        joinDate: '2025-04-18',
+        avatar: 'https://i.pravatar.cc/150?img=11',
+        conversionRate: 0.11,
+    },
+    {
+        id: '12',
+        name: 'Sophia Garcia',
+        email: 'sophia.g@example.com',
+        status: 'active',
+        earnings: 6250.80,
+        referrals: 143,
+        joinDate: '2025-02-22',
+        avatar: 'https://i.pravatar.cc/150?img=12',
+        conversionRate: 0.13,
+    },
     {
         id: '1',
         name: 'John Doe',
@@ -121,6 +144,30 @@ export const mockAffiliates: Affiliate[] = [
 
 // Generate mock campaigns
 export const mockCampaigns: Campaign[] = [
+    // New sample campaigns
+    {
+        id: '9',
+        name: 'Winter Collection',
+        status: 'active',
+        clicks: 4120,
+        conversions: 494,
+        revenue: 24700,
+        startDate: '2025-11-01',
+        endDate: '2026-02-28',
+        description: 'Winter collection featuring cozy designs for the cold season',
+        conversionRate: 0.12,
+    },
+    {
+        id: '10',
+        name: 'Mobile App Promotion',
+        status: 'active',
+        clicks: 3580,
+        conversions: 358,
+        revenue: 17900,
+        startDate: '2025-10-15',
+        description: 'Special campaign to promote our new mobile application',
+        conversionRate: 0.10,
+    },
     {
         id: '1',
         name: 'Summer Sale 2025',
@@ -444,5 +491,7 @@ export const mockDashboardStats: DashboardStats = {
         },
     ],
 };
+
+
 
 

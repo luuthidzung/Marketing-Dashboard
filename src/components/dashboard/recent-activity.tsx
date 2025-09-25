@@ -22,15 +22,15 @@ export function RecentActivityList({ activities }: RecentActivityListProps) {
     const getActivityIcon = (type: string) => {
         switch (type) {
             case 'referral':
-                return '👤';
+                return t('icons.user');
             case 'commission':
-                return '💰';
+                return t('icons.money');
             case 'affiliate_joined':
-                return '🎉';
+                return t('icons.celebration');
             case 'campaign_created':
-                return '📢';
+                return t('icons.announcement');
             default:
-                return '📋';
+                return t('icons.clipboard');
         }
     };
 

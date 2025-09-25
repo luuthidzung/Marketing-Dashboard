@@ -1,8 +1,8 @@
 {
-  "/affiliates/page": "app/affiliates/page.js",
-  "/api/affiliates/route": "app/api/affiliates/route.js",
   "/page": "app/page.js",
+  "/affiliates/page": "app/affiliates/page.js",
   "/campaigns/page": "app/campaigns/page.js",
+  "/settings/page": "app/settings/page.js",
   "/api/campaigns/route": "app/api/campaigns/route.js",
-  "/settings/page": "app/settings/page.js"
+  "/api/dashboard/route": "app/api/dashboard/route.js"
 }

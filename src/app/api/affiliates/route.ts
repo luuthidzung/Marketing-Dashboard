@@ -29,7 +29,6 @@ export async function GET(request: Request) {
         );
     }
 
-    // Apply sorting
     if (sortBy) {
         filteredAffiliates.sort((a: any, b: any) => {
             if (sortOrder === 'asc') {
